@@ -9,7 +9,7 @@ metadata:
     traefik.ingress.kubernetes.io/router.tls.certresolver: default
 spec:
   rules:
-    - host: traefik.hml.alteronline.com.br
+    - host: traefik.dev.qflash.com.br
       http:
         paths:
           - backend:
