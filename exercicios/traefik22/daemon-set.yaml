@@ -12,7 +12,7 @@ spec:
   template:
     metadata:
       labels:
-        app: traefik
+        applicationn: traefik-daemon-set
     spec:
       serviceAccountName: traefik-ingress-controller
       terminationGracePeriodSeconds: 60
